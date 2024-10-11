@@ -35,15 +35,20 @@ body {
     object-fit: cover;
     margin-right: 80px;
 }
+.social-links {
+    margin-top: 25px;
+}
 .social-links a {
     color: #4CAF50;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .social-links a:hover {
-    text-decoration: underline;
+    color: #06b;
 }
-
+.social-links a i{
+    scale: 1.4;
+}
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
